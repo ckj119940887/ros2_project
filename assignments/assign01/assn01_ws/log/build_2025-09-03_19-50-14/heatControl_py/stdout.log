@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/heatControl_py/heatControl_py.egg-info
+writing ../../build/heatControl_py/heatControl_py.egg-info/PKG-INFO
+writing dependency_links to ../../build/heatControl_py/heatControl_py.egg-info/dependency_links.txt
+writing requirements to ../../build/heatControl_py/heatControl_py.egg-info/requires.txt
+writing top-level names to ../../build/heatControl_py/heatControl_py.egg-info/top_level.txt
+writing manifest file '../../build/heatControl_py/heatControl_py.egg-info/SOURCES.txt'
+reading manifest file '../../build/heatControl_py/heatControl_py.egg-info/SOURCES.txt'
+writing manifest file '../../build/heatControl_py/heatControl_py.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_py/build
+creating /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_py/build/lib
+creating /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_py/build/lib/heatControl_py
+copying heatControl_py/tempSensor.py -> /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_py/build/lib/heatControl_py
+copying heatControl_py/__init__.py -> /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_py/build/lib/heatControl_py
+copying heatControl_py/thermostat.py -> /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_py/build/lib/heatControl_py
+copying heatControl_py/heater.py -> /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_py/build/lib/heatControl_py
+running install
+running install_lib
+creating /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_py/lib/python3.12/site-packages/heatControl_py
+copying /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_py/build/lib/heatControl_py/tempSensor.py -> /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_py/lib/python3.12/site-packages/heatControl_py
+copying /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_py/build/lib/heatControl_py/__init__.py -> /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_py/lib/python3.12/site-packages/heatControl_py
+copying /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_py/build/lib/heatControl_py/thermostat.py -> /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_py/lib/python3.12/site-packages/heatControl_py
+copying /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_py/build/lib/heatControl_py/heater.py -> /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_py/lib/python3.12/site-packages/heatControl_py
+byte-compiling /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_py/lib/python3.12/site-packages/heatControl_py/tempSensor.py to tempSensor.cpython-312.pyc
+byte-compiling /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_py/lib/python3.12/site-packages/heatControl_py/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_py/lib/python3.12/site-packages/heatControl_py/thermostat.py to thermostat.cpython-312.pyc
+byte-compiling /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_py/lib/python3.12/site-packages/heatControl_py/heater.py to heater.cpython-312.pyc
+running install_data
+creating /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_py/share/ament_index
+creating /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_py/share/ament_index/resource_index
+creating /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_py/share/ament_index/resource_index/packages
+copying resource/heatControl_py -> /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_py/share/ament_index/resource_index/packages
+copying package.xml -> /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_py/share/heatControl_py
+running install_egg_info
+Copying ../../build/heatControl_py/heatControl_py.egg-info to /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_py/lib/python3.12/site-packages/heatControl_py-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_py/install.log'
