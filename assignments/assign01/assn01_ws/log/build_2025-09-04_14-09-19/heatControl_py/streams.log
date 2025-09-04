@@ -1,0 +1,41 @@
+[0.503s] Invoking command in '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/src/heatControl_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/heatControl_py build --build-base /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_py/build install --record /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_py/install.log --single-version-externally-managed install_data
+[0.807s] running egg_info
+[0.807s] creating ../../build/heatControl_py/heatControl_py.egg-info
+[0.815s] writing ../../build/heatControl_py/heatControl_py.egg-info/PKG-INFO
+[0.816s] writing dependency_links to ../../build/heatControl_py/heatControl_py.egg-info/dependency_links.txt
+[0.816s] writing entry points to ../../build/heatControl_py/heatControl_py.egg-info/entry_points.txt
+[0.816s] writing requirements to ../../build/heatControl_py/heatControl_py.egg-info/requires.txt
+[0.816s] writing top-level names to ../../build/heatControl_py/heatControl_py.egg-info/top_level.txt
+[0.816s] writing manifest file '../../build/heatControl_py/heatControl_py.egg-info/SOURCES.txt'
+[0.843s] reading manifest file '../../build/heatControl_py/heatControl_py.egg-info/SOURCES.txt'
+[0.844s] writing manifest file '../../build/heatControl_py/heatControl_py.egg-info/SOURCES.txt'
+[0.845s] running build
+[0.845s] running build_py
+[0.848s] creating /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_py/build
+[0.849s] creating /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_py/build/lib
+[0.849s] creating /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_py/build/lib/heatControl_py
+[0.849s] copying heatControl_py/heater.py -> /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_py/build/lib/heatControl_py
+[0.849s] copying heatControl_py/tempSensor.py -> /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_py/build/lib/heatControl_py
+[0.849s] copying heatControl_py/__init__.py -> /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_py/build/lib/heatControl_py
+[0.852s] copying heatControl_py/thermostat.py -> /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_py/build/lib/heatControl_py
+[0.852s] running install
+[0.855s] running install_lib
+[0.863s] creating /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_py/lib/python3.12/site-packages/heatControl_py
+[0.863s] copying /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_py/build/lib/heatControl_py/heater.py -> /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_py/lib/python3.12/site-packages/heatControl_py
+[0.864s] copying /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_py/build/lib/heatControl_py/tempSensor.py -> /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_py/lib/python3.12/site-packages/heatControl_py
+[0.864s] copying /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_py/build/lib/heatControl_py/__init__.py -> /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_py/lib/python3.12/site-packages/heatControl_py
+[0.865s] copying /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_py/build/lib/heatControl_py/thermostat.py -> /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_py/lib/python3.12/site-packages/heatControl_py
+[0.865s] byte-compiling /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_py/lib/python3.12/site-packages/heatControl_py/heater.py to heater.cpython-312.pyc
+[0.866s] byte-compiling /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_py/lib/python3.12/site-packages/heatControl_py/tempSensor.py to tempSensor.cpython-312.pyc
+[0.867s] byte-compiling /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_py/lib/python3.12/site-packages/heatControl_py/__init__.py to __init__.cpython-312.pyc
+[0.867s] byte-compiling /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_py/lib/python3.12/site-packages/heatControl_py/thermostat.py to thermostat.cpython-312.pyc
+[0.868s] running install_data
+[0.868s] copying package.xml -> /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_py/share/heatControl_py
+[0.869s] running install_egg_info
+[0.878s] Copying ../../build/heatControl_py/heatControl_py.egg-info to /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_py/lib/python3.12/site-packages/heatControl_py-0.0.0-py3.12.egg-info
+[0.879s] running install_scripts
+[0.950s] Installing heater script to /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_py/lib/heatControl_py
+[0.951s] Installing tempSensor script to /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_py/lib/heatControl_py
+[0.951s] Installing thermostat script to /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_py/lib/heatControl_py
+[0.952s] writing list of installed files to '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_py/install.log'
+[0.974s] Invoked command in '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/src/heatControl_py' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/heatControl_py build --build-base /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_py/build install --record /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_py/install.log --single-version-externally-managed install_data

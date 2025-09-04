@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from nodes_interfaces/msg/CountDelta.msg
+// generated code does not contain a copyright notice
+
+
+module nodes_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "Message to hold current count and increment value")
+    struct CountDelta {
+      @verbatim (language="comment", text=
+        "current count")
+      int32 count;
+
+      @verbatim (language="comment", text=
+        "increment value")
+      int32 delta;
+    };
+  };
+};

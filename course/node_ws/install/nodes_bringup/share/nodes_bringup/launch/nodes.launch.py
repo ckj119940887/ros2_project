@@ -5,7 +5,10 @@ def generate_launch_description():
     ld = LaunchDescription()
     sender_node = Node(
         package="nodes_py",
-        executable="senderExe"
+        executable="senderExe",
+        parameters=[
+            {"delta": 3}
+        ]
     )
     receiver_node = Node(
         package="nodes_py",

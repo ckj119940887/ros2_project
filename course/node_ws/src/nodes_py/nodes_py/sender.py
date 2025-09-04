@@ -4,6 +4,7 @@ from rclpy.node import Node
 
 from example_interfaces.msg import Int32
 from rcl_interfaces.msg import ParameterDescriptor
+from nodes_interfaces.msg import CountDelta
 
 class Sender(Node):
     def __init__(self):
@@ -15,7 +16,8 @@ class Sender(Node):
         myTimerPeriod = 1
         self.myTimer_ = self.create_timer(myTimerPeriod, self.handle_myTimer)
 
-        self.countPublisher_ = self.create_publisher(Int32, "count", 10)
+        #self.countPublisher_ = self.create_publisher(Int32, "count", 10)
+        self.countPublisher_ = self.create_publisher(CountDelta, "count", 10)  
 
         self.get_logger().info("Sender infrastructure set up")
 
@@ -30,8 +32,11 @@ class Sender(Node):
 
     def handle_myTimer(self):
         self.get_logger().info("Handler for myTimer invoked; count = " + str(self.count))
-        msg = Int32()
-        msg.data = self.count
+        #msg = Int32()
+        #msg.data = self.count
+        msg = CountDelta()
+        msg.count = self.count
+        msg.delta = self.delta
         self.countPublisher_.publish(msg)
         self.count += self.delta
 

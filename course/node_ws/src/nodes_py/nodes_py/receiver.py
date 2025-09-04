@@ -3,13 +3,15 @@ import rclpy   # rclpy must be declared as a dependence in package.xml - this sh
 from rclpy.node import Node
 
 from example_interfaces.msg import Int32
+from nodes_interfaces.msg import CountDelta
 
 class Receiver(Node):
     def __init__(self):
         super().__init__("ReceiverRT")
 
         self.countSubscribers = self.create_subscription(
-            Int32, 
+            #Int32, 
+            CountDelta,
             "count", 
             self.handle_count,
             10
@@ -26,7 +28,8 @@ class Receiver(Node):
 
     def handle_count(self, msg):
         self.get_logger().info("Handler for count invoked")
-        self.get_logger().info("I heard: " + str(msg.data))
+        #self.get_logger().info("I heard: " + str(msg.data))
+        self.get_logger().info("I heard: " + str(msg.count))
 
 def main(args = None):
     rclpy.init(args=args)

@@ -1,0 +1,267 @@
+[0.009s] Invoking command in '/home/kejun/git_dir/ros2_project/course/node_ws/build/nodes_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kejun/git_dir/ros2_project/course/node_ws/src/nodes_interfaces -DCMAKE_INSTALL_PREFIX=/home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces
+[0.028s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.179s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.182s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.200s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.213s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.656s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[0.983s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.378s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.381s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[1.490s] -- Found PythonExtra: /usr/bin/python3  
+[1.788s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[1.811s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.824s] -- Added test 'lint_cmake' to check CMake code style
+[1.825s] -- Added test 'xmllint' to check XML markup files
+[1.827s] -- Configuring done (1.8s)
+[1.852s] -- Generating done (0.0s)
+[1.858s] -- Build files have been written to: /home/kejun/git_dir/ros2_project/course/node_ws/build/nodes_interfaces
+[1.865s] Invoked command in '/home/kejun/git_dir/ros2_project/course/node_ws/build/nodes_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kejun/git_dir/ros2_project/course/node_ws/src/nodes_interfaces -DCMAKE_INSTALL_PREFIX=/home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces
+[1.865s] Invoking command in '/home/kejun/git_dir/ros2_project/course/node_ws/build/nodes_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kejun/git_dir/ros2_project/course/node_ws/build/nodes_interfaces -- -j1 -l1
+[1.924s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[2.061s] [  2%] Built target nodes_interfaces__rosidl_generator_type_description
+[2.102s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.306s] [  4%] Built target nodes_interfaces__cpp
+[2.314s] [  6%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.531s] [  9%] [32mBuilding C object CMakeFiles/nodes_interfaces__rosidl_generator_c.dir/rosidl_generator_c/nodes_interfaces/msg/detail/count_delta__description.c.o[0m
+[2.556s] [ 11%] [32mBuilding C object CMakeFiles/nodes_interfaces__rosidl_generator_c.dir/rosidl_generator_c/nodes_interfaces/msg/detail/count_delta__functions.c.o[0m
+[2.600s] [ 13%] [32mBuilding C object CMakeFiles/nodes_interfaces__rosidl_generator_c.dir/rosidl_generator_c/nodes_interfaces/msg/detail/count_delta__type_support.c.o[0m
+[2.624s] [ 15%] [32mBuilding C object CMakeFiles/nodes_interfaces__rosidl_generator_c.dir/rosidl_generator_c/nodes_interfaces/srv/detail/reset_count__description.c.o[0m
+[2.656s] [ 18%] [32mBuilding C object CMakeFiles/nodes_interfaces__rosidl_generator_c.dir/rosidl_generator_c/nodes_interfaces/srv/detail/reset_count__functions.c.o[0m
+[2.728s] [ 20%] [32mBuilding C object CMakeFiles/nodes_interfaces__rosidl_generator_c.dir/rosidl_generator_c/nodes_interfaces/srv/detail/reset_count__type_support.c.o[0m
+[2.753s] [ 22%] [32m[1mLinking C shared library libnodes_interfaces__rosidl_generator_c.so[0m
+[2.782s] [ 22%] Built target nodes_interfaces__rosidl_generator_c
+[2.798s] [ 25%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.964s] [ 27%] [32mBuilding CXX object CMakeFiles/nodes_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nodes_interfaces/msg/count_delta__type_support.cpp.o[0m
+[3.139s] [ 29%] [32mBuilding CXX object CMakeFiles/nodes_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nodes_interfaces/srv/reset_count__type_support.cpp.o[0m
+[3.378s] [ 31%] [32m[1mLinking CXX shared library libnodes_interfaces__rosidl_typesupport_cpp.so[0m
+[3.443s] [ 31%] Built target nodes_interfaces__rosidl_typesupport_cpp
+[3.451s] [ 34%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.663s] [ 36%] [32mBuilding CXX object CMakeFiles/nodes_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nodes_interfaces/msg/detail/count_delta__type_support_c.cpp.o[0m
+[3.934s] [ 38%] [32mBuilding CXX object CMakeFiles/nodes_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nodes_interfaces/srv/detail/reset_count__type_support_c.cpp.o[0m
+[4.232s] [ 40%] [32m[1mLinking CXX shared library libnodes_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[4.267s] [ 40%] Built target nodes_interfaces__rosidl_typesupport_fastrtps_c
+[4.274s] [ 43%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.476s] [ 45%] [32mBuilding C object CMakeFiles/nodes_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nodes_interfaces/msg/detail/count_delta__type_support.c.o[0m
+[4.507s] [ 47%] [32mBuilding C object CMakeFiles/nodes_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nodes_interfaces/srv/detail/reset_count__type_support.c.o[0m
+[4.555s] [ 50%] [32m[1mLinking C shared library libnodes_interfaces__rosidl_typesupport_introspection_c.so[0m
+[4.579s] [ 50%] Built target nodes_interfaces__rosidl_typesupport_introspection_c
+[4.587s] [ 52%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.772s] [ 54%] [32mBuilding CXX object CMakeFiles/nodes_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/nodes_interfaces/msg/count_delta__type_support.cpp.o[0m
+[4.801s] [ 56%] [32mBuilding CXX object CMakeFiles/nodes_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/nodes_interfaces/srv/reset_count__type_support.cpp.o[0m
+[4.840s] [ 59%] [32m[1mLinking CXX shared library libnodes_interfaces__rosidl_typesupport_c.so[0m
+[4.870s] [ 59%] Built target nodes_interfaces__rosidl_typesupport_c
+[4.878s] [ 61%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.098s] [ 63%] [32mBuilding CXX object CMakeFiles/nodes_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nodes_interfaces/msg/detail/dds_fastrtps/count_delta__type_support.cpp.o[0m
+[5.387s] [ 65%] [32mBuilding CXX object CMakeFiles/nodes_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nodes_interfaces/srv/detail/dds_fastrtps/reset_count__type_support.cpp.o[0m
+[5.744s] [ 68%] [32m[1mLinking CXX shared library libnodes_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.799s] [ 68%] Built target nodes_interfaces__rosidl_typesupport_fastrtps_cpp
+[5.808s] [ 70%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.995s] [ 72%] [32mBuilding CXX object CMakeFiles/nodes_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nodes_interfaces/msg/detail/count_delta__type_support.cpp.o[0m
+[6.165s] [ 75%] [32mBuilding CXX object CMakeFiles/nodes_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nodes_interfaces/srv/detail/reset_count__type_support.cpp.o[0m
+[6.401s] [ 77%] [32m[1mLinking CXX shared library libnodes_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[6.472s] [ 77%] Built target nodes_interfaces__rosidl_typesupport_introspection_cpp
+[6.489s] [ 77%] Built target nodes_interfaces
+[6.506s] [ 77%] Built target ament_cmake_python_copy_nodes_interfaces
+[6.632s] running egg_info
+[6.632s] creating nodes_interfaces.egg-info
+[6.640s] writing nodes_interfaces.egg-info/PKG-INFO
+[6.640s] writing dependency_links to nodes_interfaces.egg-info/dependency_links.txt
+[6.641s] writing top-level names to nodes_interfaces.egg-info/top_level.txt
+[6.641s] writing manifest file 'nodes_interfaces.egg-info/SOURCES.txt'
+[6.663s] reading manifest file 'nodes_interfaces.egg-info/SOURCES.txt'
+[6.663s] writing manifest file 'nodes_interfaces.egg-info/SOURCES.txt'
+[6.686s] [ 77%] Built target ament_cmake_python_build_nodes_interfaces_egg
+[6.701s] [ 79%] [34m[1mGenerating Python code for ROS interfaces[0m
+[7.003s] [ 79%] Built target nodes_interfaces__py
+[7.018s] [ 81%] [32mBuilding C object CMakeFiles/nodes_interfaces__rosidl_generator_py.dir/rosidl_generator_py/nodes_interfaces/msg/_count_delta_s.c.o[0m
+[7.109s] [ 84%] [32mBuilding C object CMakeFiles/nodes_interfaces__rosidl_generator_py.dir/rosidl_generator_py/nodes_interfaces/srv/_reset_count_s.c.o[0m
+[7.205s] [ 86%] [32m[1mLinking C shared library libnodes_interfaces__rosidl_generator_py.so[0m
+[7.250s] [ 86%] Built target nodes_interfaces__rosidl_generator_py
+[7.268s] [ 88%] [32mBuilding C object CMakeFiles/nodes_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/nodes_interfaces/_nodes_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.345s] [ 90%] [32m[1mLinking C shared module rosidl_generator_py/nodes_interfaces/nodes_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[7.369s] [ 90%] Built target nodes_interfaces_s__rosidl_typesupport_fastrtps_c
+[7.383s] [ 93%] [32mBuilding C object CMakeFiles/nodes_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/nodes_interfaces/_nodes_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.461s] [ 95%] [32m[1mLinking C shared module rosidl_generator_py/nodes_interfaces/nodes_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[7.493s] [ 95%] Built target nodes_interfaces_s__rosidl_typesupport_introspection_c
+[7.509s] [ 97%] [32mBuilding C object CMakeFiles/nodes_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/nodes_interfaces/_nodes_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[7.581s] [100%] [32m[1mLinking C shared module rosidl_generator_py/nodes_interfaces/nodes_interfaces_s__rosidl_typesupport_c.so[0m
+[7.605s] [100%] Built target nodes_interfaces_s__rosidl_typesupport_c
+[7.617s] Invoked command in '/home/kejun/git_dir/ros2_project/course/node_ws/build/nodes_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kejun/git_dir/ros2_project/course/node_ws/build/nodes_interfaces -- -j1 -l1
+[7.624s] Invoking command in '/home/kejun/git_dir/ros2_project/course/node_ws/build/nodes_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kejun/git_dir/ros2_project/course/node_ws/build/nodes_interfaces
+[7.637s] -- Install configuration: ""
+[7.637s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/share/ament_index/resource_index/rosidl_interfaces/nodes_interfaces
+[7.637s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/share/nodes_interfaces/msg/CountDelta.json
+[7.637s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/share/nodes_interfaces/srv/ResetCount.json
+[7.638s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces
+[7.638s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/srv
+[7.638s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/srv/detail
+[7.638s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/srv/detail/reset_count__functions.c
+[7.639s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/srv/detail/reset_count__functions.h
+[7.639s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/srv/detail/reset_count__type_support.c
+[7.639s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/srv/detail/reset_count__type_support.h
+[7.639s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/srv/detail/reset_count__description.c
+[7.639s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/srv/detail/reset_count__struct.h
+[7.639s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/srv/reset_count.h
+[7.639s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/msg
+[7.640s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/msg/detail
+[7.640s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/msg/detail/count_delta__type_support.c
+[7.640s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/msg/detail/count_delta__type_support.h
+[7.640s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/msg/detail/count_delta__functions.h
+[7.640s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/msg/detail/count_delta__functions.c
+[7.640s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/msg/detail/count_delta__description.c
+[7.641s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/msg/detail/count_delta__struct.h
+[7.641s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/msg/count_delta.h
+[7.642s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/msg/rosidl_generator_c__visibility_control.h
+[7.642s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/share/nodes_interfaces/environment/library_path.sh
+[7.642s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/share/nodes_interfaces/environment/library_path.dsv
+[7.642s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/lib/libnodes_interfaces__rosidl_generator_c.so
+[7.643s] -- Set non-toolchain portion of runtime path of "/home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/lib/libnodes_interfaces__rosidl_generator_c.so" to ""
+[7.643s] -- Up-to-date: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces
+[7.643s] -- Up-to-date: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/srv
+[7.643s] -- Up-to-date: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/srv/detail
+[7.643s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/srv/detail/reset_count__rosidl_typesupport_fastrtps_c.h
+[7.643s] -- Up-to-date: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/msg
+[7.644s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.644s] -- Up-to-date: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/msg/detail
+[7.644s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/msg/detail/count_delta__rosidl_typesupport_fastrtps_c.h
+[7.644s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/lib/libnodes_interfaces__rosidl_typesupport_fastrtps_c.so
+[7.644s] -- Set non-toolchain portion of runtime path of "/home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/lib/libnodes_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[7.645s] -- Up-to-date: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces
+[7.645s] -- Up-to-date: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/srv
+[7.645s] -- Up-to-date: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/srv/detail
+[7.645s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/srv/detail/reset_count__type_support.c
+[7.645s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/srv/detail/reset_count__rosidl_typesupport_introspection_c.h
+[7.645s] -- Up-to-date: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/msg
+[7.645s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.645s] -- Up-to-date: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/msg/detail
+[7.645s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/msg/detail/count_delta__type_support.c
+[7.645s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/msg/detail/count_delta__rosidl_typesupport_introspection_c.h
+[7.646s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/lib/libnodes_interfaces__rosidl_typesupport_introspection_c.so
+[7.646s] -- Set non-toolchain portion of runtime path of "/home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/lib/libnodes_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[7.646s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/lib/libnodes_interfaces__rosidl_typesupport_c.so
+[7.646s] -- Set non-toolchain portion of runtime path of "/home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/lib/libnodes_interfaces__rosidl_typesupport_c.so" to ""
+[7.646s] -- Up-to-date: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces
+[7.647s] -- Up-to-date: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/srv
+[7.647s] -- Up-to-date: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/srv/detail
+[7.647s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/srv/detail/reset_count__type_support.hpp
+[7.647s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/srv/detail/reset_count__builder.hpp
+[7.647s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/srv/detail/reset_count__traits.hpp
+[7.648s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/srv/detail/reset_count__struct.hpp
+[7.648s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/srv/reset_count.hpp
+[7.648s] -- Up-to-date: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/msg
+[7.648s] -- Up-to-date: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/msg/detail
+[7.648s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/msg/detail/count_delta__type_support.hpp
+[7.648s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/msg/detail/count_delta__builder.hpp
+[7.649s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/msg/detail/count_delta__traits.hpp
+[7.649s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/msg/detail/count_delta__struct.hpp
+[7.649s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[7.649s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/msg/count_delta.hpp
+[7.649s] -- Up-to-date: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces
+[7.649s] -- Up-to-date: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/srv
+[7.650s] -- Up-to-date: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/srv/detail
+[7.650s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/srv/detail/dds_fastrtps
+[7.650s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/srv/detail/reset_count__rosidl_typesupport_fastrtps_cpp.hpp
+[7.650s] -- Up-to-date: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/msg
+[7.650s] -- Up-to-date: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/msg/detail
+[7.650s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/msg/detail/count_delta__rosidl_typesupport_fastrtps_cpp.hpp
+[7.650s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/msg/detail/dds_fastrtps
+[7.650s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.651s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/lib/libnodes_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[7.651s] -- Set non-toolchain portion of runtime path of "/home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/lib/libnodes_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[7.651s] -- Up-to-date: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces
+[7.651s] -- Up-to-date: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/srv
+[7.651s] -- Up-to-date: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/srv/detail
+[7.651s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/srv/detail/reset_count__type_support.cpp
+[7.652s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/srv/detail/reset_count__rosidl_typesupport_introspection_cpp.hpp
+[7.652s] -- Up-to-date: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/msg
+[7.652s] -- Up-to-date: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/msg/detail
+[7.652s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/msg/detail/count_delta__type_support.cpp
+[7.652s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/include/nodes_interfaces/nodes_interfaces/msg/detail/count_delta__rosidl_typesupport_introspection_cpp.hpp
+[7.652s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/lib/libnodes_interfaces__rosidl_typesupport_introspection_cpp.so
+[7.653s] -- Set non-toolchain portion of runtime path of "/home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/lib/libnodes_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[7.654s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/lib/libnodes_interfaces__rosidl_typesupport_cpp.so
+[7.654s] -- Set non-toolchain portion of runtime path of "/home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/lib/libnodes_interfaces__rosidl_typesupport_cpp.so" to ""
+[7.654s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/share/nodes_interfaces/environment/pythonpath.sh
+[7.654s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/share/nodes_interfaces/environment/pythonpath.dsv
+[7.654s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/lib/python3.12/site-packages/nodes_interfaces-0.0.0-py3.12.egg-info
+[7.655s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/lib/python3.12/site-packages/nodes_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[7.655s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/lib/python3.12/site-packages/nodes_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[7.655s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/lib/python3.12/site-packages/nodes_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[7.655s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/lib/python3.12/site-packages/nodes_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[7.655s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/lib/python3.12/site-packages/nodes_interfaces
+[7.655s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/lib/python3.12/site-packages/nodes_interfaces/_nodes_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[7.655s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/lib/python3.12/site-packages/nodes_interfaces/srv
+[7.655s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/lib/python3.12/site-packages/nodes_interfaces/srv/_reset_count_s.c
+[7.655s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/lib/python3.12/site-packages/nodes_interfaces/srv/__init__.py
+[7.656s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/lib/python3.12/site-packages/nodes_interfaces/srv/_reset_count.py
+[7.656s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/lib/python3.12/site-packages/nodes_interfaces/__init__.py
+[7.656s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/lib/python3.12/site-packages/nodes_interfaces/_nodes_interfaces_s.ep.rosidl_typesupport_c.c
+[7.656s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/lib/python3.12/site-packages/nodes_interfaces/msg
+[7.656s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/lib/python3.12/site-packages/nodes_interfaces/msg/__init__.py
+[7.656s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/lib/python3.12/site-packages/nodes_interfaces/msg/_count_delta_s.c
+[7.656s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/lib/python3.12/site-packages/nodes_interfaces/msg/_count_delta.py
+[7.657s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/lib/python3.12/site-packages/nodes_interfaces/nodes_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[7.657s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/lib/python3.12/site-packages/nodes_interfaces/nodes_interfaces_s__rosidl_typesupport_introspection_c.so
+[7.657s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/lib/python3.12/site-packages/nodes_interfaces/_nodes_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.657s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/lib/python3.12/site-packages/nodes_interfaces/nodes_interfaces_s__rosidl_typesupport_c.so
+[7.682s] Listing '/home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/lib/python3.12/site-packages/nodes_interfaces'...
+[7.682s] Compiling '/home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/lib/python3.12/site-packages/nodes_interfaces/__init__.py'...
+[7.682s] Listing '/home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/lib/python3.12/site-packages/nodes_interfaces/msg'...
+[7.682s] Compiling '/home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/lib/python3.12/site-packages/nodes_interfaces/msg/__init__.py'...
+[7.682s] Compiling '/home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/lib/python3.12/site-packages/nodes_interfaces/msg/_count_delta.py'...
+[7.683s] Listing '/home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/lib/python3.12/site-packages/nodes_interfaces/srv'...
+[7.683s] Compiling '/home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/lib/python3.12/site-packages/nodes_interfaces/srv/__init__.py'...
+[7.683s] Compiling '/home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/lib/python3.12/site-packages/nodes_interfaces/srv/_reset_count.py'...
+[7.685s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/lib/python3.12/site-packages/nodes_interfaces/nodes_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[7.686s] -- Set non-toolchain portion of runtime path of "/home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/lib/python3.12/site-packages/nodes_interfaces/nodes_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[7.686s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/lib/python3.12/site-packages/nodes_interfaces/nodes_interfaces_s__rosidl_typesupport_introspection_c.so
+[7.686s] -- Set non-toolchain portion of runtime path of "/home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/lib/python3.12/site-packages/nodes_interfaces/nodes_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[7.687s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/lib/python3.12/site-packages/nodes_interfaces/nodes_interfaces_s__rosidl_typesupport_c.so
+[7.687s] -- Set non-toolchain portion of runtime path of "/home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/lib/python3.12/site-packages/nodes_interfaces/nodes_interfaces_s__rosidl_typesupport_c.so" to ""
+[7.687s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/lib/libnodes_interfaces__rosidl_generator_py.so
+[7.687s] -- Set non-toolchain portion of runtime path of "/home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/lib/libnodes_interfaces__rosidl_generator_py.so" to ""
+[7.688s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/share/nodes_interfaces/msg/CountDelta.idl
+[7.688s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/share/nodes_interfaces/srv/ResetCount.idl
+[7.688s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/share/nodes_interfaces/msg/CountDelta.msg
+[7.688s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/share/nodes_interfaces/srv/ResetCount.srv
+[7.689s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/share/ament_index/resource_index/package_run_dependencies/nodes_interfaces
+[7.689s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/share/ament_index/resource_index/parent_prefix_path/nodes_interfaces
+[7.689s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/share/nodes_interfaces/environment/ament_prefix_path.sh
+[7.689s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/share/nodes_interfaces/environment/ament_prefix_path.dsv
+[7.689s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/share/nodes_interfaces/environment/path.sh
+[7.689s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/share/nodes_interfaces/environment/path.dsv
+[7.690s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/share/nodes_interfaces/local_setup.bash
+[7.690s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/share/nodes_interfaces/local_setup.sh
+[7.690s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/share/nodes_interfaces/local_setup.zsh
+[7.690s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/share/nodes_interfaces/local_setup.dsv
+[7.690s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/share/nodes_interfaces/package.dsv
+[7.691s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/share/ament_index/resource_index/packages/nodes_interfaces
+[7.691s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/share/nodes_interfaces/cmake/export_nodes_interfaces__rosidl_generator_cExport.cmake
+[7.691s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/share/nodes_interfaces/cmake/export_nodes_interfaces__rosidl_generator_cExport-noconfig.cmake
+[7.691s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/share/nodes_interfaces/cmake/export_nodes_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[7.691s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/share/nodes_interfaces/cmake/export_nodes_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.692s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/share/nodes_interfaces/cmake/nodes_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[7.693s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/share/nodes_interfaces/cmake/nodes_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.693s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/share/nodes_interfaces/cmake/nodes_interfaces__rosidl_typesupport_cExport.cmake
+[7.693s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/share/nodes_interfaces/cmake/nodes_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[7.693s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/share/nodes_interfaces/cmake/export_nodes_interfaces__rosidl_generator_cppExport.cmake
+[7.693s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/share/nodes_interfaces/cmake/export_nodes_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.693s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/share/nodes_interfaces/cmake/export_nodes_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.693s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/share/nodes_interfaces/cmake/nodes_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[7.693s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/share/nodes_interfaces/cmake/nodes_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.693s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/share/nodes_interfaces/cmake/nodes_interfaces__rosidl_typesupport_cppExport.cmake
+[7.693s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/share/nodes_interfaces/cmake/nodes_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[7.693s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/share/nodes_interfaces/cmake/export_nodes_interfaces__rosidl_generator_pyExport.cmake
+[7.694s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/share/nodes_interfaces/cmake/export_nodes_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[7.694s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/share/nodes_interfaces/cmake/rosidl_cmake-extras.cmake
+[7.694s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/share/nodes_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.694s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/share/nodes_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.694s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/share/nodes_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[7.694s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/share/nodes_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[7.695s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/share/nodes_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.695s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/share/nodes_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.695s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/share/nodes_interfaces/cmake/nodes_interfacesConfig.cmake
+[7.695s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/share/nodes_interfaces/cmake/nodes_interfacesConfig-version.cmake
+[7.695s] -- Installing: /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/share/nodes_interfaces/package.xml
+[7.697s] Invoked command in '/home/kejun/git_dir/ros2_project/course/node_ws/build/nodes_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kejun/git_dir/ros2_project/course/node_ws/build/nodes_interfaces

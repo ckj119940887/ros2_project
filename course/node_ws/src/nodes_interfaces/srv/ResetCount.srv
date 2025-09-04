@@ -1,0 +1,5 @@
+# Server call to reset count to Message to hold current count and increment value
+
+int32 new_count  # input: new value for count 
+---
+int32 old_count  # output: old value for count

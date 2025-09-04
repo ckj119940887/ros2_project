@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "nodes_interfaces/msg/CountDelta",
+      "fields": [
+        {
+          "name": "count",
+          "type": {
+            "type_id": 6,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "delta",
+          "type": {
+            "type_id": 6,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "nodes_interfaces/msg/CountDelta",
+      "hash_string": "RIHS01_6ea5a74b3c70ad37b349686979270ae0f9ccf13e5387eab8dab6645cde32fdfa"
+    }
+  ]
+}

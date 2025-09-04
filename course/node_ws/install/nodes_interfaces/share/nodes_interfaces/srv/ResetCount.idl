@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from nodes_interfaces/srv/ResetCount.srv
+// generated code does not contain a copyright notice
+
+
+module nodes_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "Server call to reset count to Message to hold current count and increment value")
+    struct ResetCount_Request {
+      @verbatim (language="comment", text=
+        "input: new value for count")
+      int32 new_count;
+    };
+    struct ResetCount_Response {
+      @verbatim (language="comment", text=
+        "output: old value for count")
+      int32 old_count;
+    };
+  };
+};
