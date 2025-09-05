@@ -1,0 +1,20 @@
+[0.177s] Invoking command in '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_cpp -- -j16 -l16
+[0.241s] Invoked command in '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_cpp -- -j16 -l16
+[0.248s] Invoking command in '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_cpp
+[0.254s] -- Install configuration: ""
+[0.255s] -- Up-to-date: /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_cpp/share/ament_index/resource_index/package_run_dependencies/heatControl_cpp
+[0.256s] -- Installing: /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_cpp/share/ament_index/resource_index/parent_prefix_path/heatControl_cpp
+[0.256s] -- Up-to-date: /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_cpp/share/heatControl_cpp/environment/ament_prefix_path.sh
+[0.257s] -- Up-to-date: /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_cpp/share/heatControl_cpp/environment/ament_prefix_path.dsv
+[0.257s] -- Up-to-date: /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_cpp/share/heatControl_cpp/environment/path.sh
+[0.257s] -- Up-to-date: /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_cpp/share/heatControl_cpp/environment/path.dsv
+[0.257s] -- Up-to-date: /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_cpp/share/heatControl_cpp/local_setup.bash
+[0.257s] -- Up-to-date: /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_cpp/share/heatControl_cpp/local_setup.sh
+[0.257s] -- Up-to-date: /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_cpp/share/heatControl_cpp/local_setup.zsh
+[0.257s] -- Up-to-date: /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_cpp/share/heatControl_cpp/local_setup.dsv
+[0.257s] -- Installing: /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_cpp/share/heatControl_cpp/package.dsv
+[0.258s] -- Up-to-date: /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_cpp/share/ament_index/resource_index/packages/heatControl_cpp
+[0.258s] -- Up-to-date: /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_cpp/share/heatControl_cpp/cmake/heatControl_cppConfig.cmake
+[0.258s] -- Up-to-date: /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_cpp/share/heatControl_cpp/cmake/heatControl_cppConfig-version.cmake
+[0.258s] -- Up-to-date: /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_cpp/share/heatControl_cpp/package.xml
+[0.259s] Invoked command in '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_cpp

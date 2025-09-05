@@ -1,0 +1,20 @@
+[0.177s] Invoking command in '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_cpp -- -j16 -l16
+[0.197s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.359s] -- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.393s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.404s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.419s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.436s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.509s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.512s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.571s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.644s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[0.645s]   ament_target_dependencies() the passed package name 'example_interfaces'
+[0.645s]   was not found before
+[0.645s] Call Stack (most recent call first):
+[0.645s]   CMakeLists.txt:15 (ament_target_dependencies)
+[0.645s] 
+[0.645s] [0m
+[0.645s] -- Configuring incomplete, errors occurred!
+[0.649s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.651s] Invoked command in '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_cpp -- -j16 -l16

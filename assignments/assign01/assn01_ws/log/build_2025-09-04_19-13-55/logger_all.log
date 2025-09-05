@@ -1,0 +1,253 @@
+[0.083s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.083s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x78f586f77b60>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x78f5870c7830>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x78f5870c7830>>, mixin_verb=('build',))
+[0.112s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.112s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.112s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.112s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.112s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.112s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.112s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/heatControl_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/heatControl_bringup) by extension 'ignore'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/heatControl_bringup) by extension 'ignore_ament_install'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/heatControl_bringup) by extensions ['colcon_pkg']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/heatControl_bringup) by extension 'colcon_pkg'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/heatControl_bringup) by extensions ['colcon_meta']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/heatControl_bringup) by extension 'colcon_meta'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/heatControl_bringup) by extensions ['ros']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/heatControl_bringup) by extension 'ros'
+[0.135s] DEBUG:colcon.colcon_core.package_identification:Package 'src/heatControl_bringup' with type 'ros.ament_cmake' and name 'heatControl_bringup'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/heatControl_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/heatControl_cpp) by extension 'ignore'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/heatControl_cpp) by extension 'ignore_ament_install'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/heatControl_cpp) by extensions ['colcon_pkg']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/heatControl_cpp) by extension 'colcon_pkg'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/heatControl_cpp) by extensions ['colcon_meta']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/heatControl_cpp) by extension 'colcon_meta'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/heatControl_cpp) by extensions ['ros']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/heatControl_cpp) by extension 'ros'
+[0.136s] DEBUG:colcon.colcon_core.package_identification:Package 'src/heatControl_cpp' with type 'ros.ament_cmake' and name 'heatControl_cpp'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/heatControl_py) by extensions ['ignore', 'ignore_ament_install']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/heatControl_py) by extension 'ignore'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/heatControl_py) by extension 'ignore_ament_install'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/heatControl_py) by extensions ['colcon_pkg']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/heatControl_py) by extension 'colcon_pkg'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/heatControl_py) by extensions ['colcon_meta']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/heatControl_py) by extension 'colcon_meta'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/heatControl_py) by extensions ['ros']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/heatControl_py) by extension 'ros'
+[0.137s] DEBUG:colcon.colcon_core.package_identification:Package 'src/heatControl_py' with type 'ros.ament_python' and name 'heatControl_py'
+[0.137s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.137s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.137s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.137s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.137s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.152s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.152s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.153s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install
+[0.154s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 285 installed packages in /opt/ros/jazzy
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'heatControl_cpp' build argument 'cmake_args' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'heatControl_cpp' build argument 'cmake_target' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'heatControl_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'heatControl_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'heatControl_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'heatControl_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'heatControl_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'heatControl_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'heatControl_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.189s] DEBUG:colcon.colcon_core.verb:Building package 'heatControl_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_cpp', 'merge_install': False, 'path': '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/src/heatControl_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'heatControl_py' build argument 'cmake_args' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'heatControl_py' build argument 'cmake_target' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'heatControl_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'heatControl_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'heatControl_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'heatControl_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'heatControl_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'heatControl_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'heatControl_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.190s] DEBUG:colcon.colcon_core.verb:Building package 'heatControl_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_py', 'merge_install': False, 'path': '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/src/heatControl_py', 'symlink_install': False, 'test_result_base': None}
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'heatControl_bringup' build argument 'cmake_args' from command line to 'None'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'heatControl_bringup' build argument 'cmake_target' from command line to 'None'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'heatControl_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'heatControl_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'heatControl_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'heatControl_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'heatControl_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'heatControl_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'heatControl_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.190s] DEBUG:colcon.colcon_core.verb:Building package 'heatControl_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_bringup', 'merge_install': False, 'path': '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/src/heatControl_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.190s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.191s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.191s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/src/heatControl_py' with build type 'ament_python'
+[0.191s] Level 1:colcon.colcon_core.shell:create_environment_hook('heatControl_py', 'ament_prefix_path')
+[0.192s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.192s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_py/share/heatControl_py/hook/ament_prefix_path.ps1'
+[0.193s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_py/share/heatControl_py/hook/ament_prefix_path.dsv'
+[0.194s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_py/share/heatControl_py/hook/ament_prefix_path.sh'
+[0.194s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.194s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.197s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/src/heatControl_cpp' with build type 'ament_cmake'
+[0.197s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/src/heatControl_cpp'
+[0.197s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.197s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.363s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/src/heatControl_py'
+[0.363s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.364s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.369s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_cpp -- -j16 -l16
+[0.856s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/src/heatControl_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/heatControl_py build --build-base /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_py/build install --record /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_py/install.log --single-version-externally-managed install_data
+[1.317s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/src/heatControl_py' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/heatControl_py build --build-base /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_py/build install --record /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_py/install.log --single-version-externally-managed install_data
+[1.319s] Level 1:colcon.colcon_core.environment:checking '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_py' for CMake module files
+[1.319s] Level 1:colcon.colcon_core.environment:checking '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_py' for CMake config files
+[1.319s] Level 1:colcon.colcon_core.environment:checking '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_py/lib'
+[1.319s] Level 1:colcon.colcon_core.environment:checking '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_py/bin'
+[1.320s] Level 1:colcon.colcon_core.environment:checking '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_py/lib/pkgconfig/heatControl_py.pc'
+[1.320s] Level 1:colcon.colcon_core.environment:checking '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_py/lib/python3.12/site-packages'
+[1.320s] Level 1:colcon.colcon_core.shell:create_environment_hook('heatControl_py', 'pythonpath')
+[1.320s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_py/share/heatControl_py/hook/pythonpath.ps1'
+[1.320s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_py/share/heatControl_py/hook/pythonpath.dsv'
+[1.321s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_py/share/heatControl_py/hook/pythonpath.sh'
+[1.321s] Level 1:colcon.colcon_core.environment:checking '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_py/bin'
+[1.321s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(heatControl_py)
+[1.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_py/share/heatControl_py/package.ps1'
+[1.322s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_py/share/heatControl_py/package.dsv'
+[1.323s] INFO:colcon.colcon_core.shell:Creating package script '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_py/share/heatControl_py/package.sh'
+[1.323s] INFO:colcon.colcon_core.shell:Creating package script '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_py/share/heatControl_py/package.bash'
+[1.324s] INFO:colcon.colcon_core.shell:Creating package script '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_py/share/heatControl_py/package.zsh'
+[1.324s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_py/share/colcon-core/packages/heatControl_py)
+[1.324s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/src/heatControl_bringup' with build type 'ament_cmake'
+[1.325s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/src/heatControl_bringup'
+[1.325s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.325s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.332s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_bringup': AMENT_PREFIX_PATH=/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_py:/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_bringup:/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_cpp:/opt/ros/jazzy CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_bringup -- -j16 -l16
+[1.360s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_bringup' returned '0': AMENT_PREFIX_PATH=/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_py:/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_bringup:/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_cpp:/opt/ros/jazzy CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_bringup -- -j16 -l16
+[1.367s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_bringup': AMENT_PREFIX_PATH=/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_py:/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_bringup:/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_cpp:/opt/ros/jazzy CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_bringup
+[1.374s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(heatControl_bringup)
+[1.374s] Level 1:colcon.colcon_core.environment:checking '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_bringup' for CMake module files
+[1.375s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_bringup' returned '0': AMENT_PREFIX_PATH=/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_py:/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_bringup:/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_cpp:/opt/ros/jazzy CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_bringup
+[1.375s] Level 1:colcon.colcon_core.environment:checking '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_bringup' for CMake config files
+[1.375s] Level 1:colcon.colcon_core.shell:create_environment_hook('heatControl_bringup', 'cmake_prefix_path')
+[1.376s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_bringup/share/heatControl_bringup/hook/cmake_prefix_path.ps1'
+[1.376s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_bringup/share/heatControl_bringup/hook/cmake_prefix_path.dsv'
+[1.376s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_bringup/share/heatControl_bringup/hook/cmake_prefix_path.sh'
+[1.377s] Level 1:colcon.colcon_core.environment:checking '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_bringup/bin'
+[1.377s] Level 1:colcon.colcon_core.environment:checking '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_bringup/lib/pkgconfig/heatControl_bringup.pc'
+[1.377s] Level 1:colcon.colcon_core.environment:checking '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_bringup/lib/python3.12/site-packages'
+[1.377s] Level 1:colcon.colcon_core.environment:checking '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_bringup/bin'
+[1.377s] INFO:colcon.colcon_core.shell:Creating package script '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_bringup/share/heatControl_bringup/package.ps1'
+[1.378s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_bringup/share/heatControl_bringup/package.dsv'
+[1.378s] INFO:colcon.colcon_core.shell:Creating package script '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_bringup/share/heatControl_bringup/package.sh'
+[1.378s] INFO:colcon.colcon_core.shell:Creating package script '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_bringup/share/heatControl_bringup/package.bash'
+[1.378s] INFO:colcon.colcon_core.shell:Creating package script '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_bringup/share/heatControl_bringup/package.zsh'
+[1.379s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_bringup/share/colcon-core/packages/heatControl_bringup)
+[1.379s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(heatControl_bringup)
+[1.379s] Level 1:colcon.colcon_core.environment:checking '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_bringup' for CMake module files
+[1.380s] Level 1:colcon.colcon_core.environment:checking '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_bringup' for CMake config files
+[1.380s] Level 1:colcon.colcon_core.shell:create_environment_hook('heatControl_bringup', 'cmake_prefix_path')
+[1.380s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_bringup/share/heatControl_bringup/hook/cmake_prefix_path.ps1'
+[1.380s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_bringup/share/heatControl_bringup/hook/cmake_prefix_path.dsv'
+[1.380s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_bringup/share/heatControl_bringup/hook/cmake_prefix_path.sh'
+[1.381s] Level 1:colcon.colcon_core.environment:checking '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_bringup/bin'
+[1.381s] Level 1:colcon.colcon_core.environment:checking '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_bringup/lib/pkgconfig/heatControl_bringup.pc'
+[1.381s] Level 1:colcon.colcon_core.environment:checking '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_bringup/lib/python3.12/site-packages'
+[1.381s] Level 1:colcon.colcon_core.environment:checking '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_bringup/bin'
+[1.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_bringup/share/heatControl_bringup/package.ps1'
+[1.382s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_bringup/share/heatControl_bringup/package.dsv'
+[1.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_bringup/share/heatControl_bringup/package.sh'
+[1.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_bringup/share/heatControl_bringup/package.bash'
+[1.383s] INFO:colcon.colcon_core.shell:Creating package script '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_bringup/share/heatControl_bringup/package.zsh'
+[1.383s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_bringup/share/colcon-core/packages/heatControl_bringup)
+[3.873s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_cpp -- -j16 -l16
+[3.874s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_cpp
+[3.882s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(heatControl_cpp)
+[3.882s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/build/heatControl_cpp
+[3.882s] Level 1:colcon.colcon_core.environment:checking '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_cpp' for CMake module files
+[3.883s] Level 1:colcon.colcon_core.environment:checking '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_cpp' for CMake config files
+[3.883s] Level 1:colcon.colcon_core.shell:create_environment_hook('heatControl_cpp', 'cmake_prefix_path')
+[3.883s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_cpp/share/heatControl_cpp/hook/cmake_prefix_path.ps1'
+[3.883s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_cpp/share/heatControl_cpp/hook/cmake_prefix_path.dsv'
+[3.884s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_cpp/share/heatControl_cpp/hook/cmake_prefix_path.sh'
+[3.884s] Level 1:colcon.colcon_core.environment:checking '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_cpp/lib'
+[3.884s] Level 1:colcon.colcon_core.environment:checking '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_cpp/bin'
+[3.884s] Level 1:colcon.colcon_core.environment:checking '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_cpp/lib/pkgconfig/heatControl_cpp.pc'
+[3.884s] Level 1:colcon.colcon_core.environment:checking '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_cpp/lib/python3.12/site-packages'
+[3.885s] Level 1:colcon.colcon_core.environment:checking '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_cpp/bin'
+[3.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_cpp/share/heatControl_cpp/package.ps1'
+[3.885s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_cpp/share/heatControl_cpp/package.dsv'
+[3.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_cpp/share/heatControl_cpp/package.sh'
+[3.886s] INFO:colcon.colcon_core.shell:Creating package script '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_cpp/share/heatControl_cpp/package.bash'
+[3.886s] INFO:colcon.colcon_core.shell:Creating package script '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_cpp/share/heatControl_cpp/package.zsh'
+[3.886s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_cpp/share/colcon-core/packages/heatControl_cpp)
+[3.886s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(heatControl_cpp)
+[3.887s] Level 1:colcon.colcon_core.environment:checking '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_cpp' for CMake module files
+[3.887s] Level 1:colcon.colcon_core.environment:checking '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_cpp' for CMake config files
+[3.887s] Level 1:colcon.colcon_core.shell:create_environment_hook('heatControl_cpp', 'cmake_prefix_path')
+[3.887s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_cpp/share/heatControl_cpp/hook/cmake_prefix_path.ps1'
+[3.887s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_cpp/share/heatControl_cpp/hook/cmake_prefix_path.dsv'
+[3.888s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_cpp/share/heatControl_cpp/hook/cmake_prefix_path.sh'
+[3.888s] Level 1:colcon.colcon_core.environment:checking '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_cpp/lib'
+[3.888s] Level 1:colcon.colcon_core.environment:checking '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_cpp/bin'
+[3.888s] Level 1:colcon.colcon_core.environment:checking '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_cpp/lib/pkgconfig/heatControl_cpp.pc'
+[3.889s] Level 1:colcon.colcon_core.environment:checking '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_cpp/lib/python3.12/site-packages'
+[3.889s] Level 1:colcon.colcon_core.environment:checking '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_cpp/bin'
+[3.889s] INFO:colcon.colcon_core.shell:Creating package script '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_cpp/share/heatControl_cpp/package.ps1'
+[3.889s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_cpp/share/heatControl_cpp/package.dsv'
+[3.890s] INFO:colcon.colcon_core.shell:Creating package script '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_cpp/share/heatControl_cpp/package.sh'
+[3.890s] INFO:colcon.colcon_core.shell:Creating package script '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_cpp/share/heatControl_cpp/package.bash'
+[3.890s] INFO:colcon.colcon_core.shell:Creating package script '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_cpp/share/heatControl_cpp/package.zsh'
+[3.891s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/heatControl_cpp/share/colcon-core/packages/heatControl_cpp)
+[3.891s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.891s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.891s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.891s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.896s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.896s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.896s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.907s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.907s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/local_setup.ps1'
+[3.908s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/_local_setup_util_ps1.py'
+[3.909s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/setup.ps1'
+[3.909s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/local_setup.sh'
+[3.910s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/_local_setup_util_sh.py'
+[3.910s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/setup.sh'
+[3.911s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/local_setup.bash'
+[3.911s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/setup.bash'
+[3.912s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/local_setup.zsh'
+[3.912s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kejun/git_dir/ros2_project/assignments/assign01/assn01_ws/install/setup.zsh'

@@ -8,6 +8,21 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
+find_package(example_interfaces REQUIRED)
+
+add_executable(tempSensor src/tempSensor.cpp)
+add_executable(thermostat src/thermostat.cpp)
+add_executable(heater src/heater.cpp)
+ament_target_dependencies(tempSensor rclcpp example_interfaces)
+ament_target_dependencies(thermostat rclcpp example_interfaces)
+ament_target_dependencies(heater rclcpp example_interfaces)
+
+install(TARGETS
+  tempSensor
+  thermostat
+  heater
+  DESTINATION lib/${PROJECT_NAME}/
+)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
