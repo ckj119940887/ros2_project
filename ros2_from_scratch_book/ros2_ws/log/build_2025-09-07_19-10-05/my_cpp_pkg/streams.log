@@ -1,0 +1,47 @@
+[0.010s] Invoking command in '/home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_py_pkg:/opt/ros/jazzy PYTHONPATH=/home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/build/my_cpp_pkg -- -j16 -l16
+[0.032s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.237s] -- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.269s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.280s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.294s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.310s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.398s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.401s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.474s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.553s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[0.618s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.708s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.708s] -- Configured cppcheck include dirs: 
+[0.708s] -- Configured cppcheck exclude dirs and/or files: 
+[0.708s] -- Added test 'lint_cmake' to check CMake code style
+[0.709s] -- Added test 'uncrustify' to check C / C++ code style
+[0.709s] -- Configured uncrustify additional arguments: 
+[0.710s] -- Added test 'xmllint' to check XML markup files
+[0.710s] -- Configuring done (0.7s)
+[0.726s] -- Generating done (0.0s)
+[0.732s] -- Build files have been written to: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/build/my_cpp_pkg
+[0.765s] [ 33%] Built target number_publisher
+[0.766s] [100%] Built target test_node
+[0.766s] [100%] Built target number_counter
+[0.775s] Invoked command in '/home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_py_pkg:/opt/ros/jazzy PYTHONPATH=/home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/build/my_cpp_pkg -- -j16 -l16
+[0.776s] Invoking command in '/home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_py_pkg:/opt/ros/jazzy PYTHONPATH=/home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/build/my_cpp_pkg
+[0.782s] -- Install configuration: ""
+[0.782s] -- Up-to-date: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/test_node
+[0.782s] -- Up-to-date: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_publisher
+[0.782s] -- Up-to-date: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter
+[0.782s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[0.782s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[0.783s] -- Up-to-date: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[0.783s] -- Up-to-date: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[0.783s] -- Up-to-date: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[0.783s] -- Up-to-date: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[0.783s] -- Up-to-date: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[0.783s] -- Up-to-date: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[0.783s] -- Up-to-date: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[0.783s] -- Up-to-date: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[0.783s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[0.784s] -- Up-to-date: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[0.784s] -- Up-to-date: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[0.784s] -- Up-to-date: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[0.784s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[0.785s] Invoked command in '/home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_py_pkg:/opt/ros/jazzy PYTHONPATH=/home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/build/my_cpp_pkg

@@ -1,0 +1,287 @@
+[0.012s] Invoking command in '/home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces
+[0.186s] -- The C compiler identification is GNU 13.3.0
+[0.326s] -- The CXX compiler identification is GNU 13.3.0
+[0.345s] -- Detecting C compiler ABI info
+[0.417s] -- Detecting C compiler ABI info - done
+[0.425s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.426s] -- Detecting C compile features
+[0.427s] -- Detecting C compile features - done
+[0.434s] -- Detecting CXX compiler ABI info
+[0.507s] -- Detecting CXX compiler ABI info - done
+[0.516s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.517s] -- Detecting CXX compile features
+[0.517s] -- Detecting CXX compile features - done
+[0.524s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.640s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.736s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.743s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.795s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.834s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.310s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.646s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.098s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.101s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.213s] -- Found PythonExtra: /usr/bin/python3  
+[2.574s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.604s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.622s] -- Added test 'lint_cmake' to check CMake code style
+[2.623s] -- Added test 'xmllint' to check XML markup files
+[2.625s] -- Configuring done (2.6s)
+[2.657s] -- Generating done (0.0s)
+[2.667s] -- Build files have been written to: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/build/my_robot_interfaces
+[2.675s] Invoked command in '/home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces
+[2.676s] Invoking command in '/home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/build/my_robot_interfaces -- -j16 -l16
+[2.714s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[2.720s] [  2%] Built target ament_cmake_python_copy_my_robot_interfaces
+[2.897s] [  2%] Built target my_robot_interfaces__rosidl_generator_type_description
+[2.905s] [  4%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.914s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.923s] running egg_info
+[2.923s] creating my_robot_interfaces.egg-info
+[2.944s] writing my_robot_interfaces.egg-info/PKG-INFO
+[2.944s] writing dependency_links to my_robot_interfaces.egg-info/dependency_links.txt
+[2.944s] writing top-level names to my_robot_interfaces.egg-info/top_level.txt
+[2.945s] writing manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'
+[3.004s] reading manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'
+[3.004s] writing manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'
+[3.029s] [  6%] Built target ament_cmake_python_build_my_robot_interfaces_egg
+[3.187s] [  6%] Built target my_robot_interfaces__cpp
+[3.225s] [ 15%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__type_support.c.o[0m
+[3.225s] [ 15%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__description.c.o[0m
+[3.225s] [ 15%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/reset_counter__functions.c.o[0m
+[3.226s] [ 15%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/reset_counter__description.c.o[0m
+[3.227s] [ 18%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__functions.c.o[0m
+[3.228s] [ 20%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/reset_counter__type_support.c.o[0m
+[3.296s] [ 22%] [32m[1mLinking C shared library libmy_robot_interfaces__rosidl_generator_c.so[0m
+[3.324s] [ 22%] Built target my_robot_interfaces__rosidl_generator_c
+[3.332s] [ 31%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.332s] [ 31%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.332s] [ 34%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.332s] [ 34%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.332s] [ 31%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.336s] [ 36%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.565s] [ 38%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/msg/hardware_status__type_support.cpp.o[0m
+[3.567s] [ 40%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/srv/reset_counter__type_support.cpp.o[0m
+[3.595s] [ 43%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/hardware_status__type_support.cpp.o[0m
+[3.597s] [ 45%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/srv/detail/reset_counter__type_support.cpp.o[0m
+[3.600s] [ 47%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/reset_counter__type_support.c.o[0m
+[3.603s] [ 50%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/hardware_status__type_support.c.o[0m
+[3.620s] [ 52%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_c.so[0m
+[3.653s] [ 54%] [32m[1mLinking C shared library libmy_robot_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.653s] [ 54%] Built target my_robot_interfaces__rosidl_typesupport_c
+[3.676s] [ 56%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/hardware_status__type_support.cpp.o[0m
+[3.678s] [ 59%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/srv/detail/dds_fastrtps/reset_counter__type_support.cpp.o[0m
+[3.679s] [ 59%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c
+[3.722s] [ 61%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/msg/hardware_status__type_support.cpp.o[0m
+[3.725s] [ 63%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/srv/reset_counter__type_support.cpp.o[0m
+[3.824s] [ 68%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/hardware_status__type_support_c.cpp.o[0m
+[3.824s] [ 68%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/reset_counter__type_support_c.cpp.o[0m
+[4.128s] [ 70%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[4.197s] [ 70%] Built target my_robot_interfaces__rosidl_typesupport_introspection_cpp
+[4.223s] [ 72%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_cpp.so[0m
+[4.293s] [ 72%] Built target my_robot_interfaces__rosidl_typesupport_cpp
+[4.384s] [ 75%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.433s] [ 77%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[4.441s] [ 77%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_cpp
+[4.487s] [ 77%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c
+[4.501s] [ 77%] Built target my_robot_interfaces
+[4.515s] [ 79%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.860s] [ 79%] Built target my_robot_interfaces__py
+[4.875s] [ 84%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robot_interfaces/srv/_reset_counter_s.c.o[0m
+[4.875s] [ 84%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robot_interfaces/msg/_hardware_status_s.c.o[0m
+[5.018s] [ 86%] [32m[1mLinking C shared library libmy_robot_interfaces__rosidl_generator_py.so[0m
+[5.050s] [ 86%] Built target my_robot_interfaces__rosidl_generator_py
+[5.065s] [ 93%] [32mBuilding C object CMakeFiles/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.065s] [ 93%] [32mBuilding C object CMakeFiles/my_robot_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[5.066s] [ 93%] [32mBuilding C object CMakeFiles/my_robot_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.155s] [ 95%] [32m[1mLinking C shared module rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.so[0m
+[5.155s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[5.158s] [100%] [32m[1mLinking C shared module rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[5.179s] [100%] Built target my_robot_interfaces_s__rosidl_typesupport_introspection_c
+[5.179s] [100%] Built target my_robot_interfaces_s__rosidl_typesupport_c
+[5.180s] [100%] Built target my_robot_interfaces_s__rosidl_typesupport_fastrtps_c
+[5.188s] Invoked command in '/home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/build/my_robot_interfaces -- -j16 -l16
+[5.195s] Invoking command in '/home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/build/my_robot_interfaces
+[5.201s] -- Install configuration: ""
+[5.201s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_robot_interfaces
+[5.202s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/HardwareStatus.json
+[5.202s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/ResetCounter.json
+[5.202s] -- Up-to-date: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[5.202s] -- Up-to-date: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[5.202s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_generator_c__visibility_control.h
+[5.202s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/hardware_status.h
+[5.202s] -- Up-to-date: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[5.203s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__functions.h
+[5.203s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__description.c
+[5.203s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__struct.h
+[5.203s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__functions.c
+[5.203s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.c
+[5.203s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.h
+[5.203s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv
+[5.204s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/reset_counter.h
+[5.204s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail
+[5.204s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/reset_counter__description.c
+[5.204s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/reset_counter__functions.c
+[5.204s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/reset_counter__type_support.h
+[5.204s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/reset_counter__type_support.c
+[5.205s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/reset_counter__functions.h
+[5.205s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/reset_counter__struct.h
+[5.205s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.sh
+[5.205s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.dsv
+[5.205s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so
+[5.205s] -- Set non-toolchain portion of runtime path of "/home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so" to ""
+[5.205s] -- Up-to-date: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[5.206s] -- Up-to-date: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[5.206s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.206s] -- Up-to-date: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[5.206s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_c.h
+[5.206s] -- Up-to-date: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv
+[5.207s] -- Up-to-date: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail
+[5.207s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/reset_counter__rosidl_typesupport_fastrtps_c.h
+[5.207s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so
+[5.207s] -- Set non-toolchain portion of runtime path of "/home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[5.207s] -- Up-to-date: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[5.208s] -- Up-to-date: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[5.208s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.208s] -- Up-to-date: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[5.208s] -- Up-to-date: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.c
+[5.208s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_c.h
+[5.208s] -- Up-to-date: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv
+[5.208s] -- Up-to-date: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail
+[5.209s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/reset_counter__rosidl_typesupport_introspection_c.h
+[5.209s] -- Up-to-date: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/reset_counter__type_support.c
+[5.209s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so
+[5.209s] -- Set non-toolchain portion of runtime path of "/home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[5.209s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so
+[5.210s] -- Set non-toolchain portion of runtime path of "/home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so" to ""
+[5.210s] -- Up-to-date: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[5.210s] -- Up-to-date: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[5.210s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/hardware_status.hpp
+[5.210s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.210s] -- Up-to-date: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[5.211s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__traits.hpp
+[5.211s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.hpp
+[5.211s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__struct.hpp
+[5.211s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__builder.hpp
+[5.211s] -- Up-to-date: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv
+[5.211s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/reset_counter.hpp
+[5.211s] -- Up-to-date: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail
+[5.212s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/reset_counter__struct.hpp
+[5.212s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/reset_counter__builder.hpp
+[5.212s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/reset_counter__type_support.hpp
+[5.212s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/reset_counter__traits.hpp
+[5.212s] -- Up-to-date: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[5.212s] -- Up-to-date: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[5.212s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.212s] -- Up-to-date: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[5.213s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_cpp.hpp
+[5.213s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/dds_fastrtps
+[5.213s] -- Up-to-date: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv
+[5.213s] -- Up-to-date: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail
+[5.213s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/reset_counter__rosidl_typesupport_fastrtps_cpp.hpp
+[5.213s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/dds_fastrtps
+[5.213s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[5.214s] -- Set non-toolchain portion of runtime path of "/home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.214s] -- Up-to-date: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[5.214s] -- Up-to-date: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[5.214s] -- Up-to-date: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[5.214s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_cpp.hpp
+[5.214s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.cpp
+[5.214s] -- Up-to-date: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv
+[5.214s] -- Up-to-date: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail
+[5.215s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/reset_counter__rosidl_typesupport_introspection_cpp.hpp
+[5.215s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/reset_counter__type_support.cpp
+[5.215s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so
+[5.215s] -- Set non-toolchain portion of runtime path of "/home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[5.215s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so
+[5.215s] -- Set non-toolchain portion of runtime path of "/home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so" to ""
+[5.215s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.sh
+[5.215s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.dsv
+[5.215s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces-0.0.0-py3.12.egg-info
+[5.216s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[5.216s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[5.216s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[5.216s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[5.216s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces
+[5.216s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.so
+[5.216s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg
+[5.216s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/_hardware_status_s.c
+[5.216s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/__init__.py
+[5.217s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/_hardware_status.py
+[5.217s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[5.217s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/__init__.py
+[5.217s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[5.217s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv
+[5.217s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv/_reset_counter_s.c
+[5.217s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv/__init__.py
+[5.217s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv/_reset_counter.py
+[5.217s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_c.c
+[5.218s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.218s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.so
+[5.244s] Listing '/home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces'...
+[5.244s] Compiling '/home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/__init__.py'...
+[5.244s] Listing '/home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg'...
+[5.244s] Compiling '/home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/__init__.py'...
+[5.244s] Compiling '/home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/_hardware_status.py'...
+[5.245s] Listing '/home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv'...
+[5.245s] Compiling '/home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv/__init__.py'...
+[5.245s] Compiling '/home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv/_reset_counter.py'...
+[5.249s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[5.249s] -- Set non-toolchain portion of runtime path of "/home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[5.249s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.so
+[5.249s] -- Set non-toolchain portion of runtime path of "/home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[5.250s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.so
+[5.250s] -- Set non-toolchain portion of runtime path of "/home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.so" to ""
+[5.250s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_py.so
+[5.250s] -- Set non-toolchain portion of runtime path of "/home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_py.so" to ""
+[5.250s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/HardwareStatus.idl
+[5.250s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/ResetCounter.idl
+[5.250s] -- Up-to-date: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/HardwareStatus.msg
+[5.251s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/ResetCounter.srv
+[5.251s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/package_run_dependencies/my_robot_interfaces
+[5.251s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/parent_prefix_path/my_robot_interfaces
+[5.251s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.sh
+[5.251s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.dsv
+[5.251s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.sh
+[5.251s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.dsv
+[5.252s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.bash
+[5.252s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.sh
+[5.252s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.zsh
+[5.252s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.dsv
+[5.252s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv
+[5.252s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/packages/my_robot_interfaces
+[5.252s] -- Old export file "/home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport.cmake" will be replaced.  Removing files [/home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport-noconfig.cmake].
+[5.253s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport.cmake
+[5.253s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport-noconfig.cmake
+[5.253s] -- Old export file "/home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake" will be replaced.  Removing files [/home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake].
+[5.253s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[5.253s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.253s] -- Old export file "/home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport.cmake" will be replaced.  Removing files [/home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake].
+[5.253s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[5.254s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.254s] -- Old export file "/home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport.cmake" will be replaced.  Removing files [/home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake].
+[5.254s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport.cmake
+[5.254s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[5.254s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cppExport.cmake
+[5.254s] -- Old export file "/home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake" will be replaced.  Removing files [/home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake].
+[5.255s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.255s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.255s] -- Old export file "/home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake" will be replaced.  Removing files [/home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake].
+[5.255s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[5.255s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.255s] -- Old export file "/home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport.cmake" will be replaced.  Removing files [/home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake].
+[5.255s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport.cmake
+[5.256s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[5.256s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_pyExport.cmake
+[5.256s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[5.256s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake-extras.cmake
+[5.256s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.256s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.256s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[5.256s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[5.257s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.257s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.257s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig.cmake
+[5.257s] -- Installing: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig-version.cmake
+[5.257s] -- Up-to-date: /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.xml
+[5.258s] Invoked command in '/home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/kejun/git_dir/ros2_project/ros2_from_scratch_book/ros2_ws/build/my_robot_interfaces
