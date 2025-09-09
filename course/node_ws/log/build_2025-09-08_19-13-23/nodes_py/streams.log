@@ -1,0 +1,36 @@
+[0.712s] Invoking command in '/home/kejun/git_dir/ros2_project/course/node_ws/src/nodes_py': AMENT_PREFIX_PATH=/home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kejun/git_dir/ros2_project/course/node_ws/build/nodes_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_py/lib/python3.12/site-packages:/home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/nodes_py build --build-base /home/kejun/git_dir/ros2_project/course/node_ws/build/nodes_py/build install --record /home/kejun/git_dir/ros2_project/course/node_ws/build/nodes_py/install.log --single-version-externally-managed install_data
+[0.943s] running egg_info
+[0.943s] creating ../../build/nodes_py/nodes_py.egg-info
+[0.961s] writing ../../build/nodes_py/nodes_py.egg-info/PKG-INFO
+[0.961s] writing dependency_links to ../../build/nodes_py/nodes_py.egg-info/dependency_links.txt
+[0.961s] writing entry points to ../../build/nodes_py/nodes_py.egg-info/entry_points.txt
+[0.961s] writing requirements to ../../build/nodes_py/nodes_py.egg-info/requires.txt
+[0.961s] writing top-level names to ../../build/nodes_py/nodes_py.egg-info/top_level.txt
+[0.961s] writing manifest file '../../build/nodes_py/nodes_py.egg-info/SOURCES.txt'
+[0.998s] reading manifest file '../../build/nodes_py/nodes_py.egg-info/SOURCES.txt'
+[0.998s] writing manifest file '../../build/nodes_py/nodes_py.egg-info/SOURCES.txt'
+[0.998s] running build
+[0.999s] running build_py
+[0.999s] creating /home/kejun/git_dir/ros2_project/course/node_ws/build/nodes_py/build
+[0.999s] creating /home/kejun/git_dir/ros2_project/course/node_ws/build/nodes_py/build/lib
+[0.999s] creating /home/kejun/git_dir/ros2_project/course/node_ws/build/nodes_py/build/lib/nodes_py
+[0.999s] copying nodes_py/receiver.py -> /home/kejun/git_dir/ros2_project/course/node_ws/build/nodes_py/build/lib/nodes_py
+[0.999s] copying nodes_py/__init__.py -> /home/kejun/git_dir/ros2_project/course/node_ws/build/nodes_py/build/lib/nodes_py
+[0.999s] copying nodes_py/sender.py -> /home/kejun/git_dir/ros2_project/course/node_ws/build/nodes_py/build/lib/nodes_py
+[0.999s] running install
+[1.004s] running install_lib
+[1.023s] creating /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_py/lib/python3.12/site-packages/nodes_py
+[1.023s] copying /home/kejun/git_dir/ros2_project/course/node_ws/build/nodes_py/build/lib/nodes_py/receiver.py -> /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_py/lib/python3.12/site-packages/nodes_py
+[1.023s] copying /home/kejun/git_dir/ros2_project/course/node_ws/build/nodes_py/build/lib/nodes_py/__init__.py -> /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_py/lib/python3.12/site-packages/nodes_py
+[1.023s] copying /home/kejun/git_dir/ros2_project/course/node_ws/build/nodes_py/build/lib/nodes_py/sender.py -> /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_py/lib/python3.12/site-packages/nodes_py
+[1.024s] byte-compiling /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_py/lib/python3.12/site-packages/nodes_py/receiver.py to receiver.cpython-312.pyc
+[1.024s] byte-compiling /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_py/lib/python3.12/site-packages/nodes_py/__init__.py to __init__.cpython-312.pyc
+[1.024s] byte-compiling /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_py/lib/python3.12/site-packages/nodes_py/sender.py to sender.cpython-312.pyc
+[1.025s] running install_data
+[1.025s] running install_egg_info
+[1.044s] Copying ../../build/nodes_py/nodes_py.egg-info to /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_py/lib/python3.12/site-packages/nodes_py-0.0.0-py3.12.egg-info
+[1.045s] running install_scripts
+[1.159s] Installing receiverExe script to /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_py/lib/nodes_py
+[1.159s] Installing senderExe script to /home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_py/lib/nodes_py
+[1.159s] writing list of installed files to '/home/kejun/git_dir/ros2_project/course/node_ws/build/nodes_py/install.log'
+[1.178s] Invoked command in '/home/kejun/git_dir/ros2_project/course/node_ws/src/nodes_py' returned '0': AMENT_PREFIX_PATH=/home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kejun/git_dir/ros2_project/course/node_ws/build/nodes_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_py/lib/python3.12/site-packages:/home/kejun/git_dir/ros2_project/course/node_ws/install/nodes_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/nodes_py build --build-base /home/kejun/git_dir/ros2_project/course/node_ws/build/nodes_py/build install --record /home/kejun/git_dir/ros2_project/course/node_ws/build/nodes_py/install.log --single-version-externally-managed install_data

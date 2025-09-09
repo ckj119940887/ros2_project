@@ -5,6 +5,7 @@ from rclpy.node import Node
 from example_interfaces.msg import Int32
 from rcl_interfaces.msg import ParameterDescriptor
 from nodes_interfaces.msg import CountDelta
+from nodes_interfaces.srv import ResetCount
 
 class Sender(Node):
     def __init__(self):
@@ -19,6 +20,8 @@ class Sender(Node):
         #self.countPublisher_ = self.create_publisher(Int32, "count", 10)
         self.countPublisher_ = self.create_publisher(CountDelta, "count", 10)  
 
+        self.resetService_ = self.create_service(ResetCount, "reset", self.handle_reset)
+
         self.get_logger().info("Sender infrastructure set up")
 
         self.initialize()
@@ -29,6 +32,11 @@ class Sender(Node):
         self.get_logger().info("Initialize Entry Point invoked")
         self.count = 0
 
+    def handle_reset(self, request: ResetCount.Request, response: ResetCount.Response):
+        self.get_logger().info("Handler for reset service invoked; new count = " + str(request.new_count))
+        response.old_count = self.count
+        self.count = request.new_count
+        return response
 
     def handle_myTimer(self):
         self.get_logger().info("Handler for myTimer invoked; count = " + str(self.count))
